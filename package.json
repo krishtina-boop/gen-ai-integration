@@ -1,0 +1,18 @@
+{
+  "name": "gen-ai-integration",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js -e ejs,js,css,html,scss",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/genai": "^1.34.0",
+    "ejs": "^3.1.10",
+    "express": "^5.2.1"
+  }
+}

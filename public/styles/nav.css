@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav {
+  display: flex;
+  /* border: 2px solid blue; */
+  border-bottom: 2px solid #b0b0b0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 999;
+}
+
+.nav-container {
+  display: flex;
+  /* border: 2px solid yellow; */
+  gap: 60px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.nav-items {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lists {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.lists li {
+  list-style: none;
+
+  cursor: pointer;
+}
+
+.lists li a {
+  text-decoration: none;
+  color: black;
+}
+
+#login {
+  border: 4px solid #91dec3;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: black;
+}
+
+#login a {
+  color: black;
+}
+
+#signup {
+  color: white;
+  background-color: #447df0;
+  border: 4px solid #447df0;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#signup a {
+  color: white;
+}
+
+#line {
+  border-left: 2px solid #b0b0b0;
+  padding-left: 10px;
+}
+
+.options {
+  display: none;
+}
+
+#line:hover .options {
+  display: block;
+  background-color: #f0f0f0;
+  padding: 5px;
+  margin-top: 2px;
+}
